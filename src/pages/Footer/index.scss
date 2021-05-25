@@ -1,0 +1,84 @@
+.footer{
+  width: 100%;
+  height: 200px;
+  background-color: #eee4d9aa;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  //transition: 1s;
+  .footertop{
+    width: 43%;
+    height: 80%;
+    background-color: pink;
+    //transition: 1s width;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .ftopimg{
+      width: 80px;
+
+      height: 80px;
+      background-color: aquamarine;
+    }
+    .ftoptext{
+      flex: 0.6;
+      width: 200px;
+      height: 120px;
+      background-color: aqua;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      div{
+        width: 50px;
+        height: 50px;
+        background-color: #8c8dc6;
+      }
+    }
+  }
+  .footerbot{
+    border-left:2px solid #37d55d;
+    width:43%;
+    height: 80%;
+    background-color: #CFE8CC;
+    //transition: 1s width;
+    padding-left:25px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .fboturl{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: center;
+      font-size: 13px;
+      div{
+        width: 55px;
+      }
+    }
+  }
+}
+@media only screen and(max-width: 700px) {
+  .footer{
+    background-color: rgba(203, 131, 51, 0.67);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    //transition: 1s;
+    .footertop{
+      width: 80%;
+      height: 45%;
+      background-color: pink;
+      //transition: 1s width;
+    }
+    .footerbot{
+      width: 80%;
+      height: 45%;
+      background-color: yellow;
+      //transition: 1s width;
+      border: 0;
+      padding: 0;
+    }
+  }
+}

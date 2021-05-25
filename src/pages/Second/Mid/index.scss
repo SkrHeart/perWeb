@@ -1,0 +1,35 @@
+.secondMid{
+  width: 95%;
+  //background-color: #61dafb;
+  display: flex;
+  flex-direction: column;
+  //justify-content: center;
+  align-items: center;
+  .midcontent{
+    font-size: 14px;
+    width: 100%;
+    //transition: 1s;
+    background-color: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:0 0 5px 5px rgba(226, 219, 219, 0.6);
+    box-sizing: border-box;
+    overflow: auto;
+    height: 230px;
+  }
+  .midcontent:hover{
+    box-shadow: 0 0 7px 7px rgba(24, 1, 1, 0.3);
+    transition: 1s ;
+  }
+}
+//小于700px,大于0
+@media only screen and (max-width: 700px){
+  .secondMid{
+   //background-color: #a0ceab;
+    .midcontent{
+      transition: 1s;
+      margin: 10px;
+    }
+  }
+}

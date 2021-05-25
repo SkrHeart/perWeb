@@ -1,0 +1,32 @@
+//宽度最小为900
+@media only screen and(min-width: 900px) {
+  .index{
+    background-image: url("../../assets/imgs/sky.jpg");
+    transition: 0.3s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+//465-496 878-900
+
+//宽度最大为900，高度最小为465
+@media only screen and(max-width: 900px)and(min-height: 465px) {
+  .index{
+    transition: 0.3s;
+    background-image: url("../../assets/imgs/sky.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+//宽度最大为900，高度最大为465
+@media only screen and(max-width: 900px)and(max-height: 465px) {
+  .index{
+    transition: 0.3s;
+    background-image: url("../../assets/imgs/sky.jpg");
+    background-size: 886px 466px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
